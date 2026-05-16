@@ -1,0 +1,8 @@
+[Unit]
+Description=Hello App Service
+
+[Service]
+ExecStart=/usr/bin/hello-app
+
+[Install]
+WantedBy=multi-user.target
